@@ -1,0 +1,46 @@
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    }
+
+.top-tags{
+    bottom: auto;
+  
+    top: 35px;
+}
+
+.tags{
+    color: #1a3863;
+    position: absolute;
+    font-weight: 500;
+    bottom: 0;
+    left: 150px;
+    font-size:1.125rem;
+    font-family: "Poppins";
+
+}
+
+.bottom-tags{
+    margin-bottom: 30px;
+}
+
+.bottom-tag-html{
+    margin-left: 20px;
+}
+
+
+.container{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 466px;
+    position: absolute;
+    opacity: 0;
+ 
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay:1s;
+}

@@ -4,6 +4,7 @@ import LogoN from '../../assets/images/nishi_logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {faEnvelope, faHome, faUser} from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 
 const Sidebar = () => (
@@ -27,6 +28,14 @@ const Sidebar = () => (
                 <FontAwesomeIcon icon={faEnvelope} className='sidebar-icon'/> 
             </NavLink>
         </nav>
+
+        <ul>
+            <li>
+                <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/nishisurti/'> 
+                <FontAwesomeIcon icon={faLinkedin}/>
+                </a>
+            </li>
+        </ul>
     </div>
 )
 

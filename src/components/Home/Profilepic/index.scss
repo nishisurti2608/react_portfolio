@@ -1,0 +1,21 @@
+.profile-pic{
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+   
+  
+}
+
+
+.circle{
+    border-radius: 50%;
+  
+    border: 15px solid #94afe0;
+
+    &:hover{
+        cursor: pointer;
+    }
+}

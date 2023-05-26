@@ -13,7 +13,7 @@ body{
   margin: 0;
   padding: 0;
   line-height: 1.4;
-  font-family: 'Roboto Slab', sans-serif;
+  font: 'Roboto Slab', sans-serif;
   font-size: 0.688rem;
   color: #444;
   display: block;
