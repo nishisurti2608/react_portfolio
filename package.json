@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -22,7 +22,8 @@
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
     "trial": "^1.1.0",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "homepage": "https://nishisurti2608.github.io/react_portfolio/"
   },
   "scripts": {
     "start": "react-scripts start",
