@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters';
-
-import Profilepic from './Profilepic';
 import Footer from './Footer';
+import Profilepic from './Profilepic';
+
 
 
 const Home = ()=> {
@@ -52,6 +52,7 @@ const Home = ()=> {
             <Profilepic/>
             <Footer/>
         </div>
+       
         
     )
 }

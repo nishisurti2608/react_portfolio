@@ -1,6 +1,39 @@
 .copyright{
     text-align: center;
-    z-index: 0;
-    font-size: 3.88rem;
-    right: 20%;
+    z-index: 2;
+    font-size: 1.1rem;
+    text-align: center;
+    position: absolute;
+    top: 108%;
+    margin: auto;
+    width: 100%;
+    color: #568aad ;
+    font-family: "Ubuntu";
+    font-weight: 500;
+}
+
+.heartSymbol{
+    color: #B40404;
+    font-size: 1.2rem;
+}
+
+.reactSymbol{
+    color: #1a3863;;
+    font-size: 1.2rem;
+    animation: rotatelogo infinite 10s linear;
+    
+
+   
+   
+}
+
+@keyframes rotatelogo {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
